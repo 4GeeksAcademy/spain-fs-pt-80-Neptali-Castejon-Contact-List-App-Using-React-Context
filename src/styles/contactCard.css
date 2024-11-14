@@ -1,0 +1,39 @@
+  .contact-card {
+      width: 560px;
+  }
+  
+  .contact-image {
+    width: 150px;
+    height: 150px;
+  }
+    
+  .contact-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .contact-icon {
+    width: 1.5rem;
+    text-align: center;
+  }
+  
+  .icon-group {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    gap: 0.5rem; /* Espacio entre los iconos */
+  }
+  
+  .icon-button {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #555; /* Color opcional */
+    transition: color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    color: #000; /* Cambia de color al pasar el mouse */
+  }
+  
