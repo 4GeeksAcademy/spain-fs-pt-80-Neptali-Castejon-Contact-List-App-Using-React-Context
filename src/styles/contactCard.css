@@ -12,6 +12,13 @@
     align-items: center;
     gap: 0.5rem;
   }
+
+  .contact-info--custom{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%; 
+  }
   
   .contact-icon {
     width: 1.5rem;
